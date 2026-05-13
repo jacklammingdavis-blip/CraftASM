@@ -10,10 +10,10 @@ REGISTERS = {f"R{i}": format(i, "04b") for i in range(1, 16)}
 
 def assemble():
     print("=" * 60)
-    print(" Reading code from file: 'program.txt'")
+    print(" Reading code from file: 'ASM.txt'")
     print("=" * 60)
     try:
-        with open("program.txt", "r") as f:
+        with open("ASM.txt", "r") as f:
             lines = f.readlines()
         
         output = []
