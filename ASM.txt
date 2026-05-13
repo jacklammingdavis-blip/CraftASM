@@ -1,0 +1,4 @@
+(Test Program Delete This)
+LDI R1 127
+ADD R1 R2
+ADD R2 R1
